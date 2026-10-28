@@ -106,4 +106,3 @@ body::before{background:#0B0820}header{background:rgba(11,8,32,.86)}.logo b{colo
 @keyframes dr{50%{transform:translate(var(--x),var(--y))}}@keyframes pl{50%{transform:scale(1.35);opacity:.55}}@keyframes gb{0%,100%{transform:scaleY(.3)}50%{transform:scaleY(1)}}@keyframes sw{to{transform:rotate(360deg)}}@keyframes hc{50%{opacity:.25}}@keyframes sc{to{transform:translateX(160px)}}@keyframes blink{50%{opacity:.15}}
 .dr{animation:dr 5s ease-in-out infinite}.pl{transform-box:fill-box;transform-origin:center;animation:pl 2s ease-in-out infinite}.gb{transform-box:fill-box;transform-origin:bottom;animation:gb 2.8s ease-in-out infinite}.sw{transform-box:view-box;transform-origin:100px 45px;animation:sw 4s linear infinite}.hc{animation:hc 2.4s ease-in-out infinite}.sc{animation:sc 3s ease-in-out infinite alternate}.led{animation:blink 1.4s steps(2) infinite}
 .cv{width:100%;display:block;border-radius:18px;background:linear-gradient(135deg,#0B0820,#1d1458)}
-
