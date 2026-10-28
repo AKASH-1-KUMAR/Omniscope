@@ -157,4 +157,3 @@ PN.slice(3).forEach(function(p,k){pn(p,k+3)})})})();
 document.getElementById('f').onsubmit=function(e){e.preventDefault();var f=e.target,ok=document.getElementById('ok');
 if(!f.n.value.trim()||!/^\S+@\S+\.\S+$/.test(f.e.value)||!f.d.value.trim()){ok.textContent='Please complete name, a valid work email and a project description.';return}
 ok.textContent='Thank you. This prototype form is not yet connected to a backend, so nothing was sent.';f.reset()};
-
